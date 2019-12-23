@@ -12,6 +12,7 @@ const config = {
 const game = new Game(config);
 console.log(game);
 game.scene.start("preloadScene");
+
 // function preload() {
 //   this.load.image("logo", logoImg);
 // }
